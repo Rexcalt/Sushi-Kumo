@@ -1,0 +1,42 @@
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.location1 {
+    margin-bottom: 10px;
+}
+
+.location2{
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.facebook-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #3b5998;
+    color: #fff;
+    text-decoration: none;
+}
+
+.schedule {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .facebook-link {
+        display: block;
+        margin: 10px auto;
+    }
+}
